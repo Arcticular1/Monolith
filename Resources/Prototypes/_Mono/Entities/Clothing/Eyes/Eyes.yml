@@ -1,0 +1,13 @@
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseC3SyndicateContraband, ContrabandClothing]
+  id: ClothingEyesHudRogueCommander
+  name: Rogue Commander Hud
+  description: A security hud, modified to suit the needs of a Ashen Republic Cell-Comm.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Eyes/Hud/rogue.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Eyes/Hud/rogue.rsi
+  - type: Construction
+    graph: HudMedSec
+    node: medsecHud
