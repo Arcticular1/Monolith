@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 Redrover1760
 # SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -68,7 +69,6 @@
             Cellular: -2.5
             Shock: 1.25
             Cold: 1.25
-            Radiation: 3
       - !type:HealthChange
         conditions:
         - !type:OrganType # Goobstation - Yowie
@@ -125,51 +125,41 @@
         conditions:
         - !type:ReagentThreshold
           min: 40
+      - !type:RevertPolymorph
+        prototype: LetoferolMutationNatural
+        conditions:
+        - !type:ReagentThreshold
+          min: 15
+      - !type:AdjustReagent
+        reagent: Letoferol
+        amount: -7.5
+      - !type:AdjustReagent
+        reagent: NaturalLetoferol
+        amount: -7.5
 
-# romerol plus real
+# cheap alternative to mesotaxinide
 
 - type: reagent
-  id: Letoferol
-  name: reagent-name-letoferol
+  id: Mesophenerol
+  name: reagent-name-mesophenerol
   group: Special
-  desc: reagent-desc-letoferol
-  physicalDesc: reagent-physical-desc-necrotic
-  flavor: acid
-  color: "#a84387"
+  desc: reagent-desc-mesophenerol
+  physicalDesc: reagent-physical-desc-translucent
+  flavor: medicine
+  color: "#4ca832"
   worksOnTheDead: true
   metabolisms:
     Medicine:
-      metabolismRate: 0.5
+      metabolismRate: 1
       effects:
-      - !type:CauseZombieInfection
+      - !type:RevertPolymorph
+        prototype: LetoferolMutationNatural
         conditions:
         - !type:ReagentThreshold
-          min: 0.5
-      - !type:HealthChange
-        damage:
-          types:
-            Cellular: 3.5
-            Poison: 4
-            Caustic: 8
-      - !type:HealthChange
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
-        - !type:ReagentThreshold
-          min: 15
-        damage:
-          groups:
-            Brute: -0.25
-      - !type:Jitter
-        conditions:
-        - !type:ReagentThreshold
-          min: 15
-      - !type:ChemVomit
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
-        - !type:ReagentThreshold
-          min: 15
-        probability: 0.85
+          min: 40
+      - !type:AdjustReagent
+        reagent: Letoferol
+        amount: -3
+      - !type:AdjustReagent
+        reagent: NaturalLetoferol
+        amount: -3

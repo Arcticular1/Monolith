@@ -14,8 +14,9 @@
   - WeaponRifleLecterTSF
   - WeaponRifleVulcanTSF
   - WeaponSubMachineGunDrozdTSF
+  - WeaponRifleMR3CTSF
   - WeaponRifleAnnieTSF
-  - WeaponLMGMR8BTSF
+  #- WeaponLMGMR8BTSF
   - WeaponRifleMR8CTSF
   - WeaponRifleXlr556Tsf
 
@@ -33,6 +34,7 @@
   - MeshTSF
   - NanolaminateFoamGrenadeTSF
   - SynthalloyProductionTsf
+  - SynthalloyProductionTechDisk
   - PortableRecharger
   - MotionDetectorTSF
 

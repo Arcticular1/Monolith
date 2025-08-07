@@ -1,8 +1,10 @@
 # SPDX-FileCopyrightText: 2025 LukeZurg22
+# SPDX-FileCopyrightText: 2025 Onezero0
 # SPDX-FileCopyrightText: 2025 Redrover1760
 # SPDX-FileCopyrightText: 2025 ScyronX
 # SPDX-FileCopyrightText: 2025 core-mene
 # SPDX-FileCopyrightText: 2025 mikusssssss
+# SPDX-FileCopyrightText: 2025 significant harassment
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 # SPDX-FileCopyrightText: 2025 starch
 # SPDX-FileCopyrightText: 2025 wewman222
@@ -11,6 +13,9 @@
 
 - type: Tag
   id: CassetteTape
+
+- type: Tag
+  id: MREFood
 
 #7.62x51mm tags
 
@@ -159,6 +164,17 @@
 - type: Tag
   id: MagazineBox8x65mmSKR
 
+#.55 SAM caliber tags
+
+- type: Tag
+  id: Cartridge55_SAM
+
+- type: Tag
+  id: Magazine55_SAMPistol
+
+- type: Tag
+  id: Magazine55_SAMPistolHighCapacity
+
 #12 gauge tags
 
 - type: Tag
@@ -289,3 +305,35 @@
 
 - type: Tag
   id: BiomassBounty
+
+# Ship Ammo
+
+- type: Tag
+  id: Asm220Torpedo
+
+- type: Tag
+  id: CharonSlug
+
+- type: Tag
+  id: 150mmShell
+
+- type: Tag
+  id: LightFighterOrdinance
+
+# Kudzu ignore tag
+
+- type: Tag
+  id: Chimera
+
+- type: Tag
+  id: ChimeraFloor
+
+# hhhh
+
+- type: Tag
+  id: TechDiskMono
+
+# survival kit
+
+- type: Tag
+  id: SurvivalBox

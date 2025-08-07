@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2025 BoskiYourk
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 grandalff
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: vessel
   id: Gadyuka
   parent: BaseVesselAntag
@@ -6,14 +13,16 @@
   price: 27520 # WALMARTMOBILE 2
   category: Small
   group: Ussp
-  access: USSPGadyuka
+  access: USSPBasic
   shuttlePath: /Maps/_Mono/Shuttles/USSP/gadyuka.yml
   guidebookPage: Null
   class:
   - Pursuit
   engine:
   - Uranium
-
+  cloakHunter: true
+  company:
+  - USSP
 - type: gameMap
   id: Gadyuka
   mapName: 'Gadyuka'
