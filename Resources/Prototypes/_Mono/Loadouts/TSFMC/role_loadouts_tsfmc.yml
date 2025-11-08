@@ -92,7 +92,7 @@
   canCustomizeName: true
 
 - type: roleLoadout
-  id: JobBailiff # Unused
+  id: JobBailiff # Captain
   groups:
   - TsfmcHead
   - TsfmcNeck
