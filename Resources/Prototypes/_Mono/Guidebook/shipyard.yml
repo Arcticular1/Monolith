@@ -1,11 +1,3 @@
-# SPDX-FileCopyrightText: 2025 bluebrouny
-# SPDX-FileCopyrightText: 2025 significant harassment
-# SPDX-FileCopyrightText: 2025 starch
-# SPDX-FileCopyrightText: 2025 tonotom
-# SPDX-FileCopyrightText: 2025 tonotom1
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: guideEntry
   id: Shipyard
   name: guide-entry-shipyard
@@ -17,7 +9,8 @@
   - ShipyardSabine
   - ShipyardTakeaway
   - ShipyardRuby
-
+  - ShipyardMotleyAnne
+  
 - type: guideEntry
   id: ShipyardArgent
   name: guide-entry-shipyard-argent
@@ -42,3 +35,8 @@
   id: ShipyardRuby
   name: guide-entry-shipyard-ruby
   text: "/ServerInfo/_Mono/Guidebook/Shipyard/Ruby.xml"
+
+- type: guideEntry
+  id: ShipyardMotleyAnne
+  name: guide-entry-shipyard-motley-anne
+  text: "/ServerInfo/_Mono/Guidebook/Shipyard/MotleyAnne.xml"

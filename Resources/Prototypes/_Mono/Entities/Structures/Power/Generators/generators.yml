@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: MPL-2.0
-
 - type: entity
   abstract: true
   id: StaticGeneratorBase
@@ -214,6 +210,14 @@
   - type: FuelGradeAdapter
     inputMaterial: Plasma
     outputMaterial: FuelGradePlasma
+  - type: ShipRepairable
+    repairTime: 30
+    repairCost: 100 # expensive
+  - type: RadarBlip
+    visibleFromOtherGrids: true
+    radarColor: "#fcba03"
+    scale: 2
+    shape: square
 
 - type: entity
   parent:
